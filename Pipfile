@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+gunicorn = "==21.2.0"
+prometheus-client = "==0.17.1"
+fastapi = "==0.103.1"
+uvicorn = "==0.23.2"
+requests = "==2.31.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.4"
